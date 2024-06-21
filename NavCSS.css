@@ -1,0 +1,107 @@
+/* .nav-container {
+    width: 100%;
+}
+
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: gray;
+    border-radius: 4px;
+} */
+
+
+/* Global styles */
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+/* App.css or index.css */
+
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px; /* Adjust padding as needed */
+    background-color: #54e5f8; /* Example background color */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px; /* Adjust the size of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.title-container {
+    flex: 1; /* This will make the title container expand to fill available space */
+    display: flex;
+    justify-content: center; /* Center align the content horizontally */
+}
+
+.header-title {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+    color: #000000; /* Example text color */
+}
+
+
+.custom-navbar {
+    background-color: #e25f5a; /* Custom background color */
+}
+
+.custom-navbar .nav-link {
+    color: rgb(255, 255, 255); /* Custom text color */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgb(128, 125, 125); /* Background color on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+/* Section styles */
+section {
+    padding: 100px 20px; /* Padding for each section */
+    margin-top: 20px; /* Margin between sections */
+}
+
+/* Individual section backgrounds */
+#home {
+    background: rgba(5, 30, 173, 0.445);
+    height: 100vh; /* Full viewport height */
+}
+
+#about {
+    background: rgba(32, 178, 171, 0.438);
+    height: 100vh; /* Full viewport height */
+}
+
+#login {
+    background: rgba(130, 169, 219, 0.562);
+    height: 100vh; /* Full viewport height */
+}
+
+#contact {
+    background: rgba(236, 45, 45, 0.719);
+    height: 100vh; /* Full viewport height */
+}
+
+#register {
+    background: rgba(144, 238, 144, 0.781);
+    height: 100vh; /* Full viewport height */
+}
+

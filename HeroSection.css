@@ -1,0 +1,96 @@
+.hero-section {
+    padding: 100px 0;
+    background-color: #ff9292; /* Optional background color */
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    font-family: 'Times New Roman', Times, serif; /* Added font-family */
+}
+
+.subtitle {
+    font-size: 2.0rem;
+    color: #555;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    font-family: 'Times New Roman', Times, serif; /* Added font-family */
+}
+
+
+.service-description {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    font-family: 'Times New Roman', Times, serif; /* Added font-family */
+}
+
+.services {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.testimonials {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.call-to-action {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    font-family: 'Times New Roman', Times, serif; /* Added font-family */
+}
+
+.fade-in-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif; /* Added font-family */
+}
+
+.service-card {
+    background-color: #7af0ff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.testimonial {
+    background-color: #79ffc1;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.testimonial p {
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif; /* Added font-family */
+}
+
+.btn-primary {
+    background-color: #4835d4;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Times New Roman', Times, serif; /* Added font-family */
+}
+
+.btn-primary:hover {
+    background-color: #2e227d;
+}
